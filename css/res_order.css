@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  font-family: Arial;
+  background: url('../image/order.jpg') no-repeat center center/cover;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box{
+  background: white;
+  padding: 30px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  text-align: center;
+  margin-left: 600px;
+  margin-top: 100px;
+}
+h2{
+    color: mediumvioletred;
+}
+input{
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+button{
+  background: orange;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+button:hover{
+  background: red;
+}

@@ -1,0 +1,256 @@
+.dish{
+    background-image: url('../image/Vibrant.png');
+    background-size: cover;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 780px;
+    position: relative;
+    opacity: 0.7;
+}
+.navbar{
+    position: absolute;
+    width: 1200px;
+    background: transparent;
+    margin-top: -650px;
+    right: 100px;
+    z-index: 1000;
+}
+nav a{
+    color: white;
+    margin-right:  30px;
+    font-size: 20px;
+    text-decoration: none; 
+}
+a:hover{
+    color: cyan;
+}
+.btn8{
+    background: gold;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    font-size: 25px;
+    color: white; 
+}
+.jo h1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hotpink;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 18px;
+    font-size: 150px;
+    text-shadow: 9px 0 8px darkgreen;
+}
+.table{
+    padding: 60px 0;
+    text-align: center;
+}
+.title{
+    font-size: 60px;
+    color: red;
+    font-family: 'Montserrat', cursive;
+    font-weight: bold;
+}
+.subtitle{
+    font-size: 56px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    color: green;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+}
+.item{
+    position: relative;
+    margin-bottom: 50px;
+}
+.item img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.content{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 19px;
+    text-align: left;
+}
+.content h2{
+    font-size: 18px;
+    margin: 0;
+}
+.content p{
+    margin: 0;
+    color: orange;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.p{
+    color: orange;
+    font-weight: bold;
+    font-size: 18px; 
+}
+.btn3{
+    background: orange;
+    color: #fff;
+    border: 1px solid white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn3:hover{
+    background: transparent;
+}
+.delivery {
+  text-align: center;
+  padding: 50px 0;
+}
+.delivery-heading{
+    margin-top: -30px;
+    color: red;
+    text-shadow: 0 0 6px black;    
+}
+.delivery-heading h1{
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+.delivery-heading i{
+    font-size: 30px;
+    color: blueviolet;
+    text-shadow: none;
+}
+.road {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  background: #333;
+  margin-top: 60px;
+}
+.road::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: 50%;
+  left: 0;
+  background: repeating-linear-gradient(
+    to right,
+    white 0px,
+    white 40px,
+    transparent 40px,
+    transparent 80px
+  );
+  animation: roadMove 2s linear infinite;
+}
+.scooty {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  left: -150px;
+  animation: moveScooty 12s linear infinite;
+}
+@keyframes moveScooty {
+    0% { left: -150px; }
+    100% { left: 100%; }
+}
+@keyframes roadMove {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-80px); }
+}
+.f1{
+    background: darkslategray;
+    color: #fff;
+    padding: 30px 20px; 
+    justify-content: center;
+}
+.f2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    text-align: center;  
+    width: 90%;          
+    margin: 0 auto;    
+}
+.f3 i{
+    font-size: 25px;
+    color: hotpink;
+}
+.f3 h1,
+.f3 h3 {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.f3 p{
+   color: #aaa;
+   font-size: 18px;   
+}
+.f3 ul{
+    list-style: none;
+    padding: 0;
+}
+.f3 ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+.f3 ul li span:first-child {
+    margin-right: 30px;
+}
+.insta{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px; 
+}
+.insta img{
+    height: 100px;
+    object-fit: cover;
+    width: 180px;
+}
+.f3 input{
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+}
+.f3 button{
+    width: 300px;
+    padding: 10px;
+    background: #c7a17a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.copy{
+    text-align: center;
+    margin-top: 30px;
+    color: #aaa;
+    font-size: 20px;
+}
+.copy i{
+    font-size: 20px;
+    color: hotpink;
+}

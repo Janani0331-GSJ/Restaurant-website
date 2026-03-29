@@ -1,0 +1,200 @@
+.tab{
+    background: url('../image/table.jpg');
+    background-size: cover;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 780px;
+    opacity: 0.9;
+    position: relative;
+}
+.navbar{
+    position: absolute;
+    width: 1200px;
+    background: transparent;
+    margin-top: -650px;
+    right: 240px;
+    z-index: 1000;
+}
+nav a{
+    color: white;
+    margin-right:  30px;
+    font-size: 25px;
+    text-decoration: none; 
+    font-weight: bold;
+}
+a:hover{
+    color: cyan;
+}
+.btn8{
+    background: gold;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    font-size: 25px;
+    color: white; 
+}
+.kitty{
+     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: hotpink;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 10px;
+}
+.reservation{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    height: 100vh;
+}
+.box{
+    background: gray;
+    padding: 40px;
+    width: 550px;
+    height: 550px;
+    border-radius: 5px;
+    margin-left: 700px;
+}
+.book{
+    font-size: 60px;
+    color: #c7a17a;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+.make{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;   
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+.form-group label{
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.form-group input,
+.form-group select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.form-group input{
+    width: 89%;
+}
+.map{
+  width: 450px;
+  height: 590px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px gray; 
+  margin-left: -600px; 
+  margin-top: -580px;
+}
+.reserve{
+    margin-top: 20px;
+    background: #c7a17a;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+}
+.reserve:hover{
+    color: black;
+}
+.f1{
+    background: darkslategray;
+    color: #fff;
+    padding: 30px 20px; 
+    justify-content: center;
+}
+.f2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    text-align: center;  
+    width: 90%;          
+    margin: 0 auto;    
+}
+.f3 i{
+    font-size: 25px;
+    color: hotpink;
+}
+.f3 h1,
+.f3 h3 {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.f3 p{
+   color: #aaa;
+   font-size: 18px;   
+}
+.f3 ul{
+    list-style: none;
+    padding: 0;
+}
+.f3 ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+.f3 ul li span:first-child {
+    margin-right: 30px;
+}
+.insta{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px; 
+}
+.insta img{
+    height: 100px;
+    object-fit: cover;
+    width: 180px;
+}
+.f3 input{
+    width: 275px;
+    padding: 13px;
+    margin: 10px 0;
+    border: none;
+}
+.f3 button{
+    width: 300px;
+    padding: 13px;
+    background: #c7a17a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.copy{
+    text-align: center;
+    margin-top: 30px;
+    color: #aaa;
+    font-size: 20px;
+}
+.copy i{
+    font-size: 20px;
+    color: hotpink;
+}
